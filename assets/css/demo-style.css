@@ -1,0 +1,32 @@
+.navbar-light.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #404040 !important;
+    z-index: 999;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    -webkit-animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
+    animation: .5s ease-in-out 0s normal none 1 running fadeInDown
+}
+
+.navbar-light.is-sticky .navbar-nav li a {
+    color: #fff !important;
+}
+
+.navbar-light.is-sticky .appointment-btn {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background: #3b566e !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-light.is-sticky .navbar-toggler {
+        border-color: #00aaad;
+        background: #fff !important;
+    }
+}
