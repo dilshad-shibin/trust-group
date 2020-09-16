@@ -27,6 +27,6 @@
 @media only screen and (max-width: 767px) {
     .navbar-light.is-sticky .navbar-toggler {
         border-color: #00aaad;
-        background: #fff !important;
+        /* background: #fff !important; */
     }
 }

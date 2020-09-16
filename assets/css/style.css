@@ -3453,3 +3453,16 @@ button {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar-toggle-mobile{
+    display: none;
+}
+
+.navbar-toggler-icon-mobile{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat center center;
+    background-size: 100% 100%;
+}
