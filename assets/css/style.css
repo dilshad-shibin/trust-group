@@ -257,7 +257,7 @@ button {
     height: 100%;
     z-index: 999999;
     /* background: #1b423e */
-    background-color:  #007FFF;
+    background-color: #007FFF;
 }
 
 .preloader-area .spinner {
@@ -367,12 +367,12 @@ button {
     padding: 0
 }
 
-.navbar.is-sticky .navbar-nav li a{
+.navbar.is-sticky .navbar-nav li a {
     color: #f2f2f2;
 }
 
-@media(max-width: 576px){
-    .navbar.is-sticky .navbar-nav li a{
+@media(max-width: 576px) {
+    .navbar.is-sticky .navbar-nav li a {
         color: #6f8ba4;
     }
 }
@@ -476,11 +476,11 @@ button {
     z-index: 1
 }
 
-.main-banner:before{
+.main-banner:before {
     content: "";
     position: absolute;
     display: block;
-    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,hsla(0,0%,100%,0));
+    background: linear-gradient(180deg, rgba(0, 0, 0, .5) 0, hsla(0, 0%, 100%, 0));
     top: 0;
     left: 0;
     right: 0;
@@ -3480,11 +3480,11 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar-toggle-mobile{
+.navbar-toggle-mobile {
     display: none;
 }
 
-.navbar-toggler-icon-mobile{
+.navbar-toggler-icon-mobile {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
@@ -3493,86 +3493,89 @@ button {
     background-size: 100% 100%;
 }
 
-
-  .navbar-brand img:nth-of-type(1) {
+.navbar-brand img:nth-of-type(1) {
     animation: bounce1 6s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-  }
- .navbar-brand img:nth-of-type(2) {
+}
+
+.navbar-brand img:nth-of-type(2) {
     animation: bounce2 6s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-  }
- .navbar-brand img:nth-of-type(3) {
+}
+
+.navbar-brand img:nth-of-type(3) {
     animation: bounce3 6s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-  }
-  
+}
+
 @keyframes bounce1 {
     0% {
-      opacity:1;
+        opacity: 1;
     }
     15% {
-      opacity:1;
+        opacity: 1;
     }
     25% {
-      opacity:0;
+        opacity: 0;
     }
     50% {
-      opacity:0;
+        opacity: 0;
     }
-     75% {
-      opacity:0;
+    75% {
+        opacity: 0;
     }
     100% {
-      opacity:0;
+        opacity: 0;
     }
-  }
-  @keyframes bounce2 {
+}
+
+@keyframes bounce2 {
     0% {
-      opacity:0;
+        opacity: 0;
     }
     15% {
-      opacity:0;
+        opacity: 0;
     }
     25% {
-      opacity:1;
+        opacity: 1;
     }
     50% {
-      opacity:1;
+        opacity: 1;
     }
-     75% {
-      opacity:0;
+    75% {
+        opacity: 0;
     }
     100% {
-      opacity:0;
+        opacity: 0;
     }
+}
+
+@keyframes bounce3 {
+    0% {
+        opacity: 0;
     }
-    @keyframes bounce3 {
-        0% {
-          opacity:0;
-        }
-        15% {
-          opacity:0;
-        }
-        25% {
-          opacity:0;
-        }
-        50% {
-          opacity:0;
-        }
-         75% {
-          opacity:1;
-        }
-        100% {
-          opacity:1;
-        }
-      }
+    15% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
-      /* @media(max-width:767px){
+/* @media(max-width:767px){
         .navbar-light.is-sticky .navbar-toggle-mobile{
             top: -32px;
         }
@@ -3581,57 +3584,65 @@ button {
         }
       } */
 
-      @media(max-width: 400px){
-        .navbar-toggle-mobile{
-            right: 35% !important;
-            top: 6px !important;
-        }
-        .navbar-toggle-btn{
-            top: 0 !important;
-        }
-      }
-
-      @media only screen and (min-width: 1400px){
-        .main-banner {
-            /* height: 860px; */
-            }
+@media(max-width: 400px) {
+    .navbar-toggle-mobile {
+        right: 35% !important;
+        top: 6px !important;
     }
-    .hero-content-bg {
-            height: 85vh;
-            position: relative;
-            background-image: url(../../assets/img/banner/homepage-banner1.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* background-position: bottom; */
-            z-index: 1;
-        }
-        .hero-content-bg:before{
-            content: "";
-            position: absolute;
-            display: block;
-            background: linear-gradient(180deg,rgba(0,0,0,.5) 0,hsla(0,0%,100%,0));
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 9.375rem;
-        }
-        .hero-content-bg2 {
-                background-image: url(../../assets/img/banner/homepage-banner2.jpg) !important;
-            }
-        .hero-content-bg3 {
-            background-image: url(../../assets/img/banner/homepage-banner3.jpg) !important;
-        }
-        .hero-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%;
-        }
-        .hero-text h2, .hero-text p{
-            color: #fff !important;
-            text-align: center;
-        }
-        .hero-text h2{
-            font-size: 3rem;
-        }
+    .navbar-toggle-btn {
+        top: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-banner {
+        /* height: 860px; */
+    }
+}
+
+.hero-content-bg {
+    height: 98vh;
+    position: relative;
+    background-image: url(../../assets/img/banner/homepage-banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    z-index: 1;
+}
+
+.hero-content-bg:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .5) 0, hsla(0, 0%, 100%, 0));
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 9.375rem;
+}
+
+.hero-content-bg2 {
+    background-image: url(../../assets/img/banner/homepage-banner2.jpg) !important;
+}
+
+.hero-content-bg3 {
+    background-image: url(../../assets/img/banner/homepage-banner3.jpg) !important;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h2,
+.hero-text p {
+    color: #fff !important;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+}
