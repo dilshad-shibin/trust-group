@@ -257,7 +257,8 @@ button {
     height: 100%;
     z-index: 999999;
     /* background: #1b423e */
-    background-color: azure;
+    /* background-color: azure; */
+    background-color:  #007FFF;
 }
 
 .preloader-area .spinner {
