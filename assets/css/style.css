@@ -3331,7 +3331,10 @@ button {
         background: #fff !important;
         box-shadow: 0 2px 48px 0 rgba(0, 0, 0, .06) !important;
         padding: 0 15px !important;
-        border-radius: 5px !important
+        border-radius: 5px !important;
+        position: absolute;
+        top: 35px;
+        width: 100%;
     }
 }
 
