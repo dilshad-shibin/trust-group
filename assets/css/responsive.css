@@ -3,8 +3,8 @@
         display: block;
         text-align: right;
         position: absolute;
-        right: 20%;
-        top: -45px;
+        right: 30%;
+        top: 16px;
     }
     .section-title h4 {
         font-size: 18px;
@@ -88,11 +88,11 @@
         text-align: right;
         position: absolute;
         right: 0;
-        top: -52px
+        top: 10px
     }
     .main-banner {
         height: 85vh !important;
-        padding-top: 70px;
+        /* padding-top: 70px; */
         padding-bottom: 70px
     }
     .main-banner-herbo::before {
@@ -500,7 +500,7 @@
     }
     .main-banner {
         height: 100%;
-        padding-top: 145px;
+        /* padding-top: 145px; */
         padding-bottom: 175px
     }
     .main-banner-herbo::before {

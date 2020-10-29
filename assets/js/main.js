@@ -14,8 +14,10 @@
                 t(this).scrollTop() > 120 ? t(".navbar-light").addClass("is-sticky") : t(".navbar-light").removeClass("is-sticky")
             }), t(".hero-slides").owlCarousel({
                 items: 1,
-                nav: !1,
-                dots: !0,
+                // nav: !1,
+                // dots: !0,
+                nav: false,
+                dots:  false,
                 touchDrag: !1,
                 mouseDrag: !1,
                 autoplay: !0,

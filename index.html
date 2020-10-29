@@ -7,10 +7,16 @@
     <meta>
     <title>Trust&mdash;Group</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/jquery-ui.css"> -->
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/icomoon-icon.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
 </head>
 
 <body data-spy="scroll" data-offset="70">
@@ -25,44 +31,19 @@
         </div>
     </div>
 
-    <!-- sidemenu_section -->
-    <div class="sidemenu_section">
-        <div class="close_menu">
-            <span class="span1"></span>
-            <span class="span2"></span>
-        </div>
-
-        <div class="side_menu_links">
-            <ul>
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="pharmaceuticals.html">Trust Pharmaceuticals</a>
-                </li>
-                <li>
-                    <a href="herbominerals.html">Trust Herbominerals</a>
-                </li>
-                <li>
-                    <a href="pharmacy.html">Trust Pharmacy</a>
-                </li>
-                <li>
-                    <a href="maintanance.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-
     <!-- Start Navbar Area -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-2 col-md-3">
-                    <a class="navbar-brand" href="herbominerals.html"><img src="assets/img/logo/herbo-logo.png" alt="logo"></a>
+                <div class="col-6 col-lg-2 col-md-3">
+                    <a class="navbar-brand" href="herbominerals.html" id="logo_bounce">
+                        <img src="assets/img/logo/herbo-logo.png" alt="logo">
+                        <img src="assets/img/logo/pharmaceutical-logo.png" alt="logo">
+                        <img src="assets/img/logo/pharmacy-logo.png" alt="logo">
+                    </a>
                 </div>
 
-                <div class="col-12 col-lg-7 col-md-5">
+                <div class="col-6 col-lg-7 col-md-5">
                     <div class="navbar-toggle-btn">
                         <button class="navbar-toggler navbar-toggler-herbo" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon navbar-toggler-icon-herbo"></span>
@@ -76,7 +57,6 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="#products">Products</a></li> -->
                             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="#network">Networks</a></li>
                             <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
@@ -92,45 +72,75 @@
             </div>
         </div>
     </nav>
-    <!-- End Navbar Area -->
 
-
-    <!-- Start Main Banner Area -->
-    <div id="home" class="main-banner" style="height: 95vh;background-image: url(./assets/img/banner/01.jpg);">
-        <div class="overlay"></div>
-        <!-- <div class="sidemenu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div> -->
-        <div class="mouse_down">
-            <a href="#about" style="display: inline-block;bottom: 7px;left: 50%;position: absolute;transform: translateX(-50%);"><img src="assets/img/mouse.png" alt=""></a>
-            <svg width="320" height="45" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                <g>
-                    <title>Layer 1</title>
-                    <g stroke="null" transform="translate(0,41) scale(0.10000000149011612,-0.10000000149011612) " fill="#000000" id="svg_1">
-                        <path stroke="null" d="m1473.10742,340.22054c-80.80281,-29.99595 -133.2782,-69.99055 -259.12626,-198.97314c-125.84807,-128.98259 -190.39744,-170.97692 -286.52491,-184.97503c-28.32742,-4.99933 271.66462,-7.99891 666.39101,-7.99891c394.72638,0 695.64718,2.99959 668.71292,6.99905c-98.4494,14.99798 -159.74809,53.99271 -290.23998,186.97476c-132.34943,134.98178 -177.39467,168.97719 -260.05503,197.97328c-51.54662,17.99757 -189.93304,17.99757 -239.15775,0l0,-0.00001z" id="svg_2" />
-                    </g>
-                </g>
-            </svg>
-        </div>
-        <div class="d-table">
-            <div class="d-table-cell">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="content-banner">
-                                <p>Living is a sensory experince</p>
-                                <h2>Welcome To Trust</h2>
-                            </div>
-                        </div>
+    <!-- Start Main Banner Area --> 
+    <div class="main-banner" style="background-image: none;">
+        <div class="hero-slides">
+            <div class="hero-content">
+                <div class="hero-content-bg">
+                    <div class="overlay"></div>
+                    <div class="mouse_down">
+                        <a href="#about" style="display: inline-block;bottom: 7px;left: 50%;position: absolute;transform: translateX(-50%);"><img src="assets/img/mouse.png" alt=""></a>
+                        <svg width="320" height="45" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                            <g>
+                                <title>Layer 1</title>
+                                <g stroke="null" transform="translate(0,41) scale(0.10000000149011612,-0.10000000149011612) " fill="#000000" id="svg_1">
+                                    <path stroke="null" d="m1473.10742,340.22054c-80.80281,-29.99595 -133.2782,-69.99055 -259.12626,-198.97314c-125.84807,-128.98259 -190.39744,-170.97692 -286.52491,-184.97503c-28.32742,-4.99933 271.66462,-7.99891 666.39101,-7.99891c394.72638,0 695.64718,2.99959 668.71292,6.99905c-98.4494,14.99798 -159.74809,53.99271 -290.23998,186.97476c-132.34943,134.98178 -177.39467,168.97719 -260.05503,197.97328c-51.54662,17.99757 -189.93304,17.99757 -239.15775,0l0,-0.00001z" id="svg_2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="hero-text">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h2>Welcome To Trust Group</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-content-bg hero-content-bg2">
+                    <div class="overlay"></div>
+                    <div class="mouse_down">
+                        <a href="#about" style="display: inline-block;bottom: 7px;left: 50%;position: absolute;transform: translateX(-50%);"><img src="assets/img/mouse.png" alt=""></a>
+                        <svg width="320" height="45" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                            <g>
+                                <title>Layer 1</title>
+                                <g stroke="null" transform="translate(0,41) scale(0.10000000149011612,-0.10000000149011612) " fill="#000000" id="svg_1">
+                                    <path stroke="null" d="m1473.10742,340.22054c-80.80281,-29.99595 -133.2782,-69.99055 -259.12626,-198.97314c-125.84807,-128.98259 -190.39744,-170.97692 -286.52491,-184.97503c-28.32742,-4.99933 271.66462,-7.99891 666.39101,-7.99891c394.72638,0 695.64718,2.99959 668.71292,6.99905c-98.4494,14.99798 -159.74809,53.99271 -290.23998,186.97476c-132.34943,134.98178 -177.39467,168.97719 -260.05503,197.97328c-51.54662,17.99757 -189.93304,17.99757 -239.15775,0l0,-0.00001z" id="svg_2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="hero-text">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h2>Welcome To Trust Group</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-content-bg hero-content-bg3">
+                    <div class="overlay"></div>
+                    <div class="mouse_down">
+                        <a href="#about" style="display: inline-block;bottom: 7px;left: 50%;position: absolute;transform: translateX(-50%);"><img src="assets/img/mouse.png" alt=""></a>
+                        <svg width="320" height="45" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                            <g>
+                                <title>Layer 1</title>
+                                <g stroke="null" transform="translate(0,41) scale(0.10000000149011612,-0.10000000149011612) " fill="#000000" id="svg_1">
+                                    <path stroke="null" d="m1473.10742,340.22054c-80.80281,-29.99595 -133.2782,-69.99055 -259.12626,-198.97314c-125.84807,-128.98259 -190.39744,-170.97692 -286.52491,-184.97503c-28.32742,-4.99933 271.66462,-7.99891 666.39101,-7.99891c394.72638,0 695.64718,2.99959 668.71292,6.99905c-98.4494,14.99798 -159.74809,53.99271 -290.23998,186.97476c-132.34943,134.98178 -177.39467,168.97719 -260.05503,197.97328c-51.54662,17.99757 -189.93304,17.99757 -239.15775,0l0,-0.00001z" id="svg_2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="hero-text">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h2>Welcome To Trust Group</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Start Why Choose Us Area -->
+
+    <!-- Start about section-->
     <section id="about" class="ptb-100">
         <div class="container">
             <div class="section-title">
@@ -188,24 +198,19 @@
     </div>
 
     <!-- jQuery Min JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <script>
-        // sidemenu
-        $(document).ready(function() {
-            $(".sidemenu").click(function() {
-                $(".sidemenu_section").addClass('sidemenu_section_active');
-
-            });
-
-            $(".close_menu").click(function() {
-                $(".sidemenu_section").removeClass('sidemenu_section_active');
-
-            });
-        });
-    </script>
+    <script src="assets/js/jquery.min.js "></script>
+    <script src="assets/js/jquery-ui.js "></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <script src="assets/js/jquery.magnific-popup.min.js "></script>
+    <script src="assets/js/jquery.mixitup.min.js "></script>
+    <script src="assets/js/waypoints.min.js "></script>
+    <script src="assets/js/jquery.counterup.min.js "></script>
+    <script src="assets/js/form-validator.min.js "></script>
+    <script src="assets/js/contact-form-script.js "></script>
+    <script src="assets/js/main.js "></script>
+    <script src="assets/js/login.js"></script>
 
 
 </body>

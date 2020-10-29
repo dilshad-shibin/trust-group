@@ -4200,13 +4200,33 @@ input[type=submit].btn-block {
 }
 
 .navbar-brand {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: .3125rem;
+    display: block;
+    /* padding-top: 0.3125rem;
+    padding-bottom: .3125rem; */
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+}
+
+@media(max-width:767px){
+    .navbar-brand{
+        display: inline-block;
+        padding: 30px;
+    }
+}
+@media(max-width:450px){
+    .navbar-brand{
+        padding: 20px;
+    }
+}
+
+.navbar-brand img{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .navbar-brand:focus,
