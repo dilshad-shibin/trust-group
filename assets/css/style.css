@@ -460,7 +460,7 @@ button {
 }
 
 .main-banner {
-    height: 730px;
+    /* height: 730px; */
     background-image: url(../../assets/img/hero-bg.jpg);
     position: relative;
     background-size: cover;
@@ -486,7 +486,7 @@ button {
 
 @media only screen and (min-width:1400px) {
     .main-banner {
-        height: 860px
+        /* height: 860px */
     }
 }
 
@@ -3586,11 +3586,11 @@ button {
 
       @media only screen and (min-width: 1400px){
         .main-banner {
-            height: 860px;
+            /* height: 860px; */
             }
     }
     .hero-content-bg {
-            height: 90vh;
+            height: 85vh;
             position: relative;
             background-image: url(../../assets/img/banner/homepage-banner1.jpg);
             background-size: cover;
