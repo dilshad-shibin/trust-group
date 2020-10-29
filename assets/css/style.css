@@ -370,6 +370,13 @@ button {
 .navbar.is-sticky .navbar-nav li a{
     color: #f2f2f2;
 }
+
+@media(max-width: 576px){
+    .navbar.is-sticky .navbar-nav li a{
+        color: #6f8ba4;
+    }
+}
+
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav li a:hover {
     color: #00aaad !important
