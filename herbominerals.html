@@ -50,16 +50,12 @@
     </div>
 
     <!-- Start Preloader Area -->
-    <div class="preloader-area">
+    <div class="preloader-area" style="display: block;">
         <div class="spinner">
-            <div class="rect1"></div>
-            <div class="rect2"></div>
-            <div class="rect3"></div>
-            <div class="rect4"></div>
-            <div class="rect5"></div>
+            trust
+            <span></span>
         </div>
     </div>
-    <!-- End Preloader Area -->
 
     <!-- Start Navbar Area -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -1259,39 +1255,23 @@
         })
     </script>
 
-    <!-- <script>
-        $(function(){
-            'use strict';
-            var view = $(window).height();
-            $('#products')
-            .height(view)
-            .scrollie({
-                scrolloffset: -50,
-                scrollingInView: function(elem){
-                    var bgColor = elem.data('background');
-                    $('body').css('background-color',bgColor);
-                }
-            })
-        })
-    </script> -->
-
     <script>
         $(window).on('scroll', () => {
 
-if ($(window).scrollTop() > $("#about").offset().top - 50) {
-    $('#about').css({
-        background: 'black',
-        color: 'white',
-        transition: 'all .4s ease-in-out',
-    });
-} else {
-    $('#about').css({
-        background: 'white',
-        transition: '0.3s',
-    });
-}
+        if ($(window).scrollTop() > $("#about").offset().top - 50) {
+            $('#about').css({
+                background: 'black',
+                color: 'white',
+                transition: 'all .4s ease-in-out',
+            });
+        } else {
+            $('#about').css({
+                background: 'white',
+                transition: '0.3s',
+            });
+        }
 
-});
+        });
     </script>
 
 </body>
