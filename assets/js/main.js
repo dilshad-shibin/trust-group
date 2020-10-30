@@ -17,10 +17,10 @@
                 // nav: !1,
                 // dots: !0,
                 nav: false,
-                dots:  false,
+                dots: false,
                 touchDrag: !1,
                 mouseDrag: true,
-                autoplay: false,
+                autoplay: true,
                 smartSpeed: 700,
                 loop: !0,
                 navText: ["<i class='icofont-rounded-left'></i>", "<i class='icofont-rounded-right'></i>"]
