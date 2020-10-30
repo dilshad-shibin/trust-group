@@ -585,7 +585,7 @@ button {
 .boxes-area {
     padding-top: 0;
     position: relative;
-    margin-top: -150px;
+    margin-top: -100px;
     z-index: 3
 }
 
@@ -3662,4 +3662,34 @@ button {
 }
 .herbo-bg4{
     background-image: url(../../assets/img/banner/herboBanner4.jpg) !important;
+}
+
+.video-section iframe{
+    border: 2px solid;
+    box-shadow: 0 4px 8px rgba(0,0,00.32);
+    border-radius: 5px;
+}
+
+.about-section-herbo .section-title{
+    margin-bottom: 20px;
+}
+
+.about-section-herbo .section-title span{
+    position: relative;
+    padding-left: 30px;
+}
+
+.about-section-herbo .section-title span:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    height: 2px;
+    width: 20px;
+    background: #3b566e;
+}
+
+.about-section-herbo p{
+    margin: 30px 0;
+    font-size: 16px;
 }
