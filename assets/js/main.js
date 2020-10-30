@@ -19,8 +19,8 @@
                 nav: false,
                 dots:  false,
                 touchDrag: !1,
-                mouseDrag: !1,
-                autoplay: !0,
+                mouseDrag: true,
+                autoplay: false,
                 smartSpeed: 700,
                 loop: !0,
                 navText: ["<i class='icofont-rounded-left'></i>", "<i class='icofont-rounded-right'></i>"]

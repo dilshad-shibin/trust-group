@@ -3499,6 +3499,10 @@ button {
     animation-iteration-count: infinite;
 }
 
+.navbar-brand img.herboLogo{
+    animation: none;
+}
+
 .navbar-brand img:nth-of-type(2) {
     animation: bounce2 6s;
     animation-direction: alternate;
@@ -3645,4 +3649,17 @@ button {
 
 .hero-text h2 {
     font-size: 3rem;
+}
+
+.herbo-bg{
+    background-image: url(../../assets/img/banner/herboBanner1.jpg) !important;
+}
+.herbo-bg2{
+    background-image: url(../../assets/img/banner/herboBanner2.jpg) !important;
+}
+.herbo-bg3{
+    background-image: url(../../assets/img/banner/herboBanner3.jpg) !important;
+}
+.herbo-bg4{
+    background-image: url(../../assets/img/banner/herboBanner4.jpg) !important;
 }
