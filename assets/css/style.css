@@ -3765,3 +3765,9 @@ button {
     margin: 30px 0;
     font-size: 16px;
 }
+
+@media(max-width: 576px){
+    .img-responsive{
+        height: 265px;
+    }
+}
